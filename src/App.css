@@ -64,11 +64,11 @@
   position: absolute;
   top: 80vh;
   width: 100vw;
-  height: 20vh;
+  height: 30vh;
   background: rgb(2,0,36);
   background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(31,120,17,0.4654236694677871) 50%, rgba(52,209,3,0.7455357142857143) 100%);
   transition: linear;
-  animation: moveGreenScanUp 7s;
+  animation: moveGreenScanUp 6s;
   animation-delay: 0s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
@@ -79,11 +79,11 @@
   position: absolute;
   top: -50vh;
   width: 100vw;
-  height: 20vh;
+  height: 30vh;
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(31,120,17,0.4654236694677871) 50%, rgba(52,209,3,0.7455357142857143) 100%);
   transition: linear;
-  animation: moveGreenScanDown 7s;
+  animation: moveGreenScanDown 6s;
   animation-delay: 2s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
@@ -92,13 +92,13 @@
 @keyframes moveGreenScanUp {
   0% {transform: translateY(20vh); }
 
-  100% {transform: translateY(-100vh); }
+  100% {transform: translateY(-130vh); }
 }
 
 @keyframes moveGreenScanDown {
   0% {transform: translateY(-50vh); }
 
-  100% {transform: translateY(100vh); }
+  100% {transform: translateY(130vh); }
 }
 
 @keyframes App-logo-spin {
